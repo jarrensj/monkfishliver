@@ -5,6 +5,7 @@ import JSConfetti from 'js-confetti';
 
 const SushiClick = () => {
   const [coordinates, setCoordinates] = useState<{ x: number | null; y: number | null }>({ x: null, y: null });
+  const [locations, setLocations] = useState<{ x: number; y: number; id: number }[]>([]);
 
   useEffect(() => {
     const jsConfetti = new JSConfetti();
@@ -13,6 +14,7 @@ const SushiClick = () => {
       const x = event.clientX;
       const y = event.clientY;
       setCoordinates({ x, y });
+      setLocations((prevLocations) => [...prevLocations, { x, y, id: prevLocations.length + 1 }]);
 
       jsConfetti.addConfetti({
         emojis: ['🍣','🦄'],
@@ -30,12 +32,12 @@ const SushiClick = () => {
 
   return (
     <div style={{ position: 'absolute', top: 0, left: 0 }}>
-      {coordinates.x !== null && coordinates.y !== null && (
-        <div style={{ position: 'absolute', top: coordinates.y, left: coordinates.x }}>
+      {locations.map((location) => (
+        <div key={location.id} style={{ position: 'absolute', top: location.y, left: location.x }}>
           hi
         </div>
-      )}
-    </div>
+      ))}
+      </div>
   );
 };
 
