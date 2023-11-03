@@ -30,6 +30,10 @@ const SushiClick = () => {
     };
   }, []);
 
+  const clearLocations = () => {
+    setLocations([]);
+  };
+
   return (
     <div style={{ position: 'absolute', top: 0, left: 0 }}>
       {locations.map((location) => (
@@ -37,7 +41,10 @@ const SushiClick = () => {
           hi
         </div>
       ))}
-      </div>
+      <button style={{ position: 'fixed', bottom: '20px', right: '20px' }} onClick={clearLocations}>
+        Clear
+      </button>
+    </div>
   );
 };
 
