@@ -35,6 +35,7 @@ const SushiClick = () => {
 
   const clearLocations = () => {
     setLocations([]);
+    setClickCount(0)
   };
 
   const counterStyle: React.CSSProperties = {
