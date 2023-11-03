@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect } from 'react';
 import JSConfetti from 'js-confetti'; 
+import Image from 'next/image'
 
 const SushiClick = () => {
   const [coordinates, setCoordinates] = useState<{ x: number | null; y: number | null }>({ x: null, y: null });
@@ -12,8 +13,8 @@ const SushiClick = () => {
     const jsConfetti = new JSConfetti();
 
     const handleOnClick = (event:MouseEvent) => {
-      const x = event.clientX;
-      const y = event.clientY;
+      const x = event.clientX - 29;
+      const y = event.clientY - 42;
       setCoordinates({ x, y });
       setLocations((prevLocations) => [...prevLocations, { x, y, id: prevLocations.length + 1 }]);
       setClickCount((prevCount) => prevCount + 1);
@@ -50,7 +51,12 @@ const SushiClick = () => {
     <div style={{ position: 'absolute', top: 0, left: 0 }}>
       {locations.map((location) => (
         <div key={location.id} style={{ position: 'absolute', top: location.y, left: location.x }}>
-          hi
+          <Image
+            src="/kwaji.png" 
+            alt="kwaji"
+            width={69} 
+            height={69} 
+          />
         </div>
       ))}
       <div style={counterStyle}>
