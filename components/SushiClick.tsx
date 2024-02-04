@@ -13,6 +13,13 @@ const SushiClick = () => {
     const jsConfetti = new JSConfetti();
 
     const handleOnClick = (event:MouseEvent) => {
+
+      const target = event.target as HTMLElement; 
+      // check if the click is coming from the "Clear" button using the target's ID
+      if (target.id === 'clearButton') {
+        return;
+      }
+
       const x = event.clientX - 29;
       const y = event.clientY - 42;
       setCoordinates({ x, y });
@@ -34,6 +41,8 @@ const SushiClick = () => {
   }, []);
 
   const clearLocations = () => {
+    setCoordinates({ x: null, y: null });
+
     setLocations([]);
     setClickCount(0)
   };
@@ -63,7 +72,7 @@ const SushiClick = () => {
       <div style={counterStyle}>
         click count: {clickCount}
       </div>
-      <button style={{ position: 'fixed', bottom: '20px', right: '20px' }} onClick={clearLocations}>
+      <button id="clearButton" style={{ position: 'fixed', bottom: '20px', right: '20px' }} onClick={clearLocations}>
         Clear
       </button>
     </div>
