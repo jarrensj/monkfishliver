@@ -3422,7 +3422,18 @@
 .vbg-custom-screen { display: grid; grid-template-columns: 4fr 8fr; gap: var(--vbg-space-10); padding-block: var(--vbg-space-8); border-top: 1px solid var(--vbg-border-default); }
 .vbg-custom-questions { display: grid; gap: var(--vbg-space-4); padding-left: 1.2em; margin: 0; }
 .vbg-custom-questions li { padding-left: var(--vbg-space-2); }
-.vbg-custom-toggle { gap: var(--vbg-space-2); }
+.vbg-custom-switcher { position: relative; margin-block-end: var(--vbg-space-4); }
+.vbg-custom-switcher-trigger { display: inline-flex; align-items: center; gap: var(--vbg-space-2); min-height: 0; padding: 0; border: 0; border-radius: var(--vbg-radius-small); background: none; color: inherit; font: inherit; }
+.vbg-custom-switcher-trigger:hover, .vbg-custom-switcher-trigger:active { background: none; }
+.vbg-custom-switcher-trigger > .vbg-heading-24 { margin: 0; }
+.vbg-custom-switcher-chevron { flex: none; color: var(--vbg-text-secondary); transition: transform 150ms ease, color 150ms ease; }
+.vbg-custom-switcher-trigger:hover .vbg-custom-switcher-chevron, .vbg-custom-switcher-trigger[aria-expanded="true"] .vbg-custom-switcher-chevron { color: var(--vbg-text-primary); }
+.vbg-custom-switcher-trigger[aria-expanded="true"] .vbg-custom-switcher-chevron { transform: rotate(180deg); }
+.vbg-custom-switcher-menu { position: absolute; top: calc(100% + var(--vbg-space-2)); left: 0; z-index: 10; display: grid; gap: var(--vbg-space-1); min-width: 260px; margin: 0; padding: var(--vbg-space-1); list-style: none; border: 1px solid var(--vbg-border-default); border-radius: var(--vbg-radius); background: var(--vbg-background-100); box-shadow: 0 8px 24px oklch(0 0 0 / 0.16); }
+.vbg-custom-switcher-menu[hidden] { display: none; }
+.vbg-custom-switcher-menu a { display: flex; align-items: baseline; justify-content: space-between; gap: var(--vbg-space-4); padding: var(--vbg-space-2) var(--vbg-space-3); border-radius: var(--vbg-radius-small); color: var(--vbg-text-primary); font-size: var(--vbg-type-compact); text-decoration: none; }
+.vbg-custom-switcher-menu a:hover, .vbg-custom-switcher-menu a[aria-current="page"] { background: var(--vbg-gray-alpha-200); }
+.vbg-custom-switcher-menu a > :last-child { color: var(--vbg-text-secondary); font-size: var(--vbg-type-label); }
 @media (max-width: 850px) {
   .vbg-custom-opening { grid-template-columns: 1fr; gap: var(--vbg-space-6); }
   .vbg-custom-context { max-width: 60ch; padding-bottom: 0; }

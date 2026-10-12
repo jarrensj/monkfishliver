@@ -1,4 +1,4 @@
-import { ProfileToggle } from "./profile-toggle";
+import { PathSwitcher } from "./path-switcher";
 
 export default function Home() {
   return (
@@ -8,10 +8,7 @@ export default function Home() {
       </a>
       <header className="vbg-header">
         <div className="vbg-masthead">
-          <span className="vbg-identity">
-            <span className="vbg-mono vbg-heading-24">~/jarren</span>
-          </span>
-          <ProfileToggle current="/" />
+          <PathSwitcher current="/" />
         </div>
       </header>
       <main id="main" className="vbg-custom-page" tabIndex={-1}>
