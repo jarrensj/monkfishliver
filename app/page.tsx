@@ -18,7 +18,7 @@ export default function Home() {
         <section className="vbg-custom-opening" aria-labelledby="candidate-title">
           <div className="vbg-custom-group">
             <h1 id="candidate-title" className="vbg-display">
-              Talk to Jarren.
+              Jarren.
             </h1>
           </div>
           <div className="vbg-custom-context">
