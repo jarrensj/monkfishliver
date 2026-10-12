@@ -54,6 +54,14 @@ export default function Crypto() {
               >
                 LinkedIn
               </a>
+              <a
+                className="vbg-custom-social-link"
+                href="https://x.com/jarrensj"
+                target="_blank"
+                rel="noreferrer"
+              >
+                X
+              </a>
             </nav>
           </div>
         </section>

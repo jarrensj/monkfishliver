@@ -46,6 +46,14 @@ export default function Home() {
               >
                 LinkedIn
               </a>
+              <a
+                className="vbg-custom-social-link"
+                href="https://instagram.com/jarrensj"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Instagram
+              </a>
             </nav>
           </div>
         </section>
