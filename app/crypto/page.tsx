@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { ProfileToggle } from "../profile-toggle";
+import { PathSwitcher } from "../path-switcher";
 
 export const metadata: Metadata = {
   title: "Jarren San Jose · Crypto",
@@ -17,10 +17,7 @@ export default function Crypto() {
       </a>
       <header className="vbg-header">
         <div className="vbg-masthead">
-          <span className="vbg-identity">
-            <span className="vbg-mono vbg-heading-24">~/jarren/crypto</span>
-          </span>
-          <ProfileToggle current="/crypto" />
+          <PathSwitcher current="/crypto" />
         </div>
       </header>
       <main id="main" className="vbg-custom-page" tabIndex={-1}>
