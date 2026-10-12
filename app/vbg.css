@@ -3410,6 +3410,8 @@
 .vbg-custom-links a, .vbg-custom-evidence a { text-underline-offset: .2em; text-decoration-thickness: 1px; }
 .vbg-custom-links a { padding-block: var(--vbg-space-2); }
 .vbg-custom-links a, .vbg-custom-source-line a { text-decoration: underline; }
+/* / shows Instagram where /crypto shows X, so both get one shared width; both rows wrap at the same widths and switching doesn't move the content below. */
+.vbg-custom-social-link { min-width: 4.75em; }
 .vbg-custom-evidence { display: grid; }
 .vbg-custom-row { display: grid; grid-template-columns: 4fr 8fr; gap: var(--vbg-space-10); align-items: baseline; padding-block: var(--vbg-space-6); border-top: 1px solid var(--vbg-border-subtle); }
 .vbg-custom-row > * { min-width: 0; }
