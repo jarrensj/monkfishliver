@@ -1,4 +1,3 @@
-import Link from "next/link";
 import { PathSwitcher } from "./path-switcher";
 
 export default function Home() {
@@ -26,7 +25,6 @@ export default function Home() {
               WannaText, and interactive media at Shibuya.
             </p>
             <nav className="vbg-custom-links" aria-label="Jarren’s profiles">
-              <Link href="/crypto">Crypto profile</Link>
               <a
                 href="https://jarrensj.com/"
                 target="_blank"

@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import Link from "next/link";
 import { PathSwitcher } from "../path-switcher";
 
 export const metadata: Metadata = {
@@ -34,7 +33,6 @@ export default function Crypto() {
               and built the MVP for Shibuya, and contributed to DefiLlama.
             </p>
             <nav className="vbg-custom-links" aria-label="Jarren’s profiles">
-              <Link href="/">Design profile</Link>
               <a
                 href="https://jarrensj.com/"
                 target="_blank"
