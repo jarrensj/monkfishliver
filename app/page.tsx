@@ -206,12 +206,13 @@ export default function Home() {
                 <h3 id="diagnosis-title" className="vbg-heading-24">
                   DiagnosisAI
                 </h3>
-                <p>Founding engineer</p>
+                <p>Founding engineer · Chief Engineer</p>
               </div>
               <div className="vbg-custom-group">
                 <p>
                   Jarren was the founding engineer at DiagnosisAI, a medical AI
-                  startup backed by IBM, NVIDIA, and the Boomtown Accelerator.
+                  startup backed by IBM, NVIDIA, and the Boomtown Accelerator,
+                  where his official title was Chief Engineer.
                   He built a revenue-generating Alexa skill with 100k monthly
                   users, and the data it produced helped improve DiagnosisAI’s
                   core AI. During COVID he built ineedanote to help people get
