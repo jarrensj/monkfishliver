@@ -38,9 +38,27 @@ export default function Crypto() {
             </p>
             <nav className="vbg-custom-links" aria-label="Jarren’s profiles">
               <Link href="/">Design profile</Link>
-              <a href="https://jarrensj.com/">Portfolio</a>
-              <a href="https://github.com/jarrensj">GitHub</a>
-              <a href="https://www.linkedin.com/in/jarrensanjose/">LinkedIn</a>
+              <a
+                href="https://jarrensj.com/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Portfolio
+              </a>
+              <a
+                href="https://github.com/jarrensj"
+                target="_blank"
+                rel="noreferrer"
+              >
+                GitHub
+              </a>
+              <a
+                href="https://www.linkedin.com/in/jarrensanjose/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                LinkedIn
+              </a>
             </nav>
           </div>
         </section>
@@ -69,7 +87,13 @@ export default function Crypto() {
                   growth, including its 11B+ impressions on GIPHY.
                 </p>
                 <div className="vbg-custom-source-line">
-                  <a href="https://x.com/chubbicornstm">Chubbicorns on X</a>
+                  <a
+                    href="https://x.com/chubbicornstm"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Chubbicorns on X
+                  </a>
                 </div>
               </div>
             </article>
@@ -87,7 +111,13 @@ export default function Crypto() {
                   engineer.
                 </p>
                 <div className="vbg-custom-source-line">
-                  <a href="https://www.wannatext.com/">Live product</a>
+                  <a
+                    href="https://www.wannatext.com/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Live product
+                  </a>
                 </div>
               </div>
             </article>
@@ -117,7 +147,12 @@ export default function Crypto() {
               <div className="vbg-custom-group">
                 <p>
                   Jarren has audited smart contracts for projects including{" "}
-                  <a className="vbg-link" href="https://247comics.com/">
+                  <a
+                    className="vbg-link"
+                    href="https://247comics.com/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     24/7 Comics
                   </a>{" "}
                   and The Ninja Kingdom by Kyosei.
@@ -137,6 +172,8 @@ export default function Crypto() {
                   <a
                     className="vbg-link"
                     href="https://www.calistarentertainment.com/"
+                    target="_blank"
+                    rel="noreferrer"
                   >
                     CaliStar
                   </a>{" "}
@@ -158,6 +195,8 @@ export default function Crypto() {
                   <a
                     className="vbg-link"
                     href="https://x.com/JohnPhamous/status/1478828824976449536"
+                    target="_blank"
+                    rel="noreferrer"
                   >
                     NFT Wiki
                   </a>
@@ -166,6 +205,8 @@ export default function Crypto() {
                   <a
                     className="vbg-link"
                     href="https://x.com/JohnPhamous/status/1531754866715963393"
+                    target="_blank"
+                    rel="noreferrer"
                   >
                     Goblin Translator
                   </a>
@@ -184,7 +225,12 @@ export default function Crypto() {
                 <p>
                   SO-COL (IreneDAO) hired Jarren to build out its website. He
                   also built a dive bar concept landing page for{" "}
-                  <a className="vbg-link" href="https://x.com/Jebus">
+                  <a
+                    className="vbg-link"
+                    href="https://x.com/Jebus"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     Jebus
                   </a>
                   ’s meme.
@@ -211,10 +257,18 @@ export default function Crypto() {
                   programming.
                 </p>
                 <div className="vbg-custom-source-line">
-                  <a href="https://winners.webbyawards.com/2025/ai-immersive-games/immersive-features/best-community-engagement/332291/white-rabbit">
+                  <a
+                    href="https://winners.webbyawards.com/2025/ai-immersive-games/immersive-features/best-community-engagement/332291/white-rabbit"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     Webby credits
                   </a>
-                  <a href="https://www.televisionacademy.com/bios/shibuya">
+                  <a
+                    href="https://www.televisionacademy.com/bios/shibuya"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     Emmy record
                   </a>
                 </div>
@@ -234,7 +288,11 @@ export default function Crypto() {
                   accessibility fixes.
                 </p>
                 <div className="vbg-custom-source-line">
-                  <a href="https://github.com/jarrensj/defillama-app/commits/main/?author=jarrensj">
+                  <a
+                    href="https://github.com/jarrensj/defillama-app/commits/main/?author=jarrensj"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     DefiLlama commits
                   </a>
                 </div>
@@ -253,6 +311,8 @@ export default function Crypto() {
                   <a
                     className="vbg-link"
                     href="https://x.com/0xrwu/status/1744915883674223060"
+                    target="_blank"
+                    rel="noreferrer"
                   >
                     checkphone
                   </a>
@@ -274,7 +334,12 @@ export default function Crypto() {
               He’s active in the markets himself, where tastes and trends get
               tested with real money. His onchain activity is ridiculous, and
               so is his{" "}
-              <a className="vbg-link" href="https://github.com/jarrensj">
+              <a
+                className="vbg-link"
+                href="https://github.com/jarrensj"
+                target="_blank"
+                rel="noreferrer"
+              >
                 GitHub
               </a>{" "}
               activity.
@@ -295,6 +360,8 @@ export default function Crypto() {
                   <a
                     className="vbg-link"
                     href="https://x.com/Chubbicornstm/status/2089556630677619061"
+                    target="_blank"
+                    rel="noreferrer"
                   >
                     FOMO clans
                   </a>
@@ -307,7 +374,12 @@ export default function Crypto() {
               </div>
               <div className="vbg-custom-metric">
                 <dt className="vbg-label">
-                  <a className="vbg-link" href="https://x.com/omakasemoney">
+                  <a
+                    className="vbg-link"
+                    href="https://x.com/omakasemoney"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     Omaka$e
                   </a>
                 </dt>
@@ -335,6 +407,8 @@ export default function Crypto() {
               <a
                 className="vbg-button"
                 href="https://www.linkedin.com/in/jarrensanjose/"
+                target="_blank"
+                rel="noreferrer"
               >
                 Connect on LinkedIn
               </a>

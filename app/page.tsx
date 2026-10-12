@@ -28,9 +28,27 @@ export default function Home() {
               WannaText, and interactive media at Shibuya.
             </p>
             <nav className="vbg-custom-links" aria-label="Jarren’s profiles">
-              <a href="https://jarrensj.com/">Portfolio</a>
-              <a href="https://github.com/jarrensj">GitHub</a>
-              <a href="https://www.linkedin.com/in/jarrensanjose/">LinkedIn</a>
+              <a
+                href="https://jarrensj.com/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Portfolio
+              </a>
+              <a
+                href="https://github.com/jarrensj"
+                target="_blank"
+                rel="noreferrer"
+              >
+                GitHub
+              </a>
+              <a
+                href="https://www.linkedin.com/in/jarrensanjose/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                LinkedIn
+              </a>
             </nav>
           </div>
         </section>
@@ -55,10 +73,18 @@ export default function Home() {
                   was the first engineer hired outside of the VP of Engineering.
                 </p>
                 <div className="vbg-custom-source-line">
-                  <a href="https://jarrensj.com/career">
+                  <a
+                    href="https://jarrensj.com/career"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     Career history
                   </a>
-                  <a href="https://www.reforge.com/blog/ai-prototyping-15-product-skills">
+                  <a
+                    href="https://www.reforge.com/blog/ai-prototyping-15-product-skills"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     Official product launch
                   </a>
                 </div>
@@ -86,7 +112,13 @@ export default function Home() {
                   path, so he did.
                 </p>
                 <div className="vbg-custom-source-line">
-                  <a href="https://www.wannatext.com/">Live product</a>
+                  <a
+                    href="https://www.wannatext.com/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Live product
+                  </a>
                 </div>
               </div>
             </article>
@@ -103,19 +135,30 @@ export default function Home() {
                   <a
                     className="vbg-link"
                     href="https://github.com/jarrensj/defillama-app/commits/main/?author=jarrensj"
+                    target="_blank"
+                    rel="noreferrer"
                   >
                     DefiLlama
                   </a>
                   , where his merged PRs to the Next.js app cover table
                   sorting, filter handling, mobile navigation, and accessibility
                   fixes. He has made over 17,000 contributions on{" "}
-                  <a className="vbg-link" href="https://github.com/jarrensj">
+                  <a
+                    className="vbg-link"
+                    href="https://github.com/jarrensj"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     GitHub
                   </a>{" "}
                   in the past year.
                 </p>
                 <div className="vbg-custom-source-line">
-                  <a href="https://github.com/vercel-labs/web-interface-guidelines/pull/13">
+                  <a
+                    href="https://github.com/vercel-labs/web-interface-guidelines/pull/13"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     Merged Web Interface Guidelines PR
                   </a>
                 </div>
@@ -136,10 +179,18 @@ export default function Home() {
                   programming.
                 </p>
                 <div className="vbg-custom-source-line">
-                  <a href="https://winners.webbyawards.com/2025/ai-immersive-games/immersive-features/best-community-engagement/332291/white-rabbit">
+                  <a
+                    href="https://winners.webbyawards.com/2025/ai-immersive-games/immersive-features/best-community-engagement/332291/white-rabbit"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     Webby credits
                   </a>
-                  <a href="https://www.televisionacademy.com/bios/shibuya">
+                  <a
+                    href="https://www.televisionacademy.com/bios/shibuya"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     Emmy record
                   </a>
                 </div>
@@ -162,10 +213,20 @@ export default function Home() {
                   free physician notes, and it completed 1,000+ evaluations.
                 </p>
                 <div className="vbg-custom-source-line">
-                  <a href="https://www.wsj.com/articles/new-tech-incubators-put-financials-first-1510508396">
+                  <a
+                    href="https://www.wsj.com/articles/new-tech-incubators-put-financials-first-1510508396"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     Wall Street Journal front page
                   </a>
-                  <a href="https://www.facebook.com/ineedanote/">ineedanote</a>
+                  <a
+                    href="https://www.facebook.com/ineedanote/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    ineedanote
+                  </a>
                 </div>
               </div>
             </article>
@@ -187,8 +248,20 @@ export default function Home() {
                   a Google hackathon, an Amazon Alexa hackathon, and more.
                 </p>
                 <div className="vbg-custom-source-line">
-                  <a href="https://jarrensj.com/career">Career history</a>
-                  <a href="https://jarrensj.com/projects">Awards and projects</a>
+                  <a
+                    href="https://jarrensj.com/career"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Career history
+                  </a>
+                  <a
+                    href="https://jarrensj.com/projects"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Awards and projects
+                  </a>
                 </div>
               </div>
             </article>
@@ -220,7 +293,12 @@ export default function Home() {
               </div>
               <div className="vbg-custom-metric">
                 <dt className="vbg-label">
-                  <a className="vbg-link" href="https://x.com/chubbicornstm">
+                  <a
+                    className="vbg-link"
+                    href="https://x.com/chubbicornstm"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     Chubbicorns
                   </a>
                 </dt>
@@ -263,6 +341,8 @@ export default function Home() {
                   <a
                     className="vbg-link"
                     href="https://x.com/Chubbicornstm/status/2089556630677619061"
+                    target="_blank"
+                    rel="noreferrer"
                   >
                     FOMO clans
                   </a>
@@ -291,6 +371,8 @@ export default function Home() {
               <a
                 className="vbg-button"
                 href="https://www.linkedin.com/in/jarrensanjose/"
+                target="_blank"
+                rel="noreferrer"
               >
                 Connect on LinkedIn
               </a>
