@@ -75,7 +75,7 @@ export default function Home() {
                   Jarren led frontend development for Reforge Build from the
                   initial team through launch. The AI prototyping product brings
                   together design-system capture, variants, and collaboration. He
-                  was the first engineer hired outside of the VP of Engineering.
+                  was the first engineer on the team outside of the VP of Engineering.
                 </p>
                 <div className="vbg-custom-source-line">
                   <a
