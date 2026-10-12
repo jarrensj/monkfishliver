@@ -27,7 +27,7 @@ export default function Crypto() {
         <section className="vbg-custom-opening" aria-labelledby="crypto-title">
           <div className="vbg-custom-group">
             <h1 id="crypto-title" className="vbg-display">
-              Jarren is crypto native.
+              Jarren is crypto-native.
             </h1>
           </div>
           <div className="vbg-custom-context">
