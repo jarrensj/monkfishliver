@@ -8,6 +8,15 @@ This block is written and re-added by `next dev` — verify at `node_modules/nex
 
 <!-- END:nextjs-agent-rules -->
 
+## No personal information in the repo
+
+Never commit personal information — email addresses, phone numbers, wallet addresses, or similar PII — anywhere: not in tracked files, commit messages, or PR titles/descriptions.
+
+- **Exception: contact details the site shows on purpose.** The email in the "Meet Jarren" section of `/` and `/crypto` is page content, not a leak. Keep it, and add new contact details only when asked.
+- When creating or updating `.env.example`, omit any variable whose value is personal information (e.g. `NEXT_PUBLIC_SUPPORT_EMAIL`, `NEXT_PUBLIC_CONTRACT_ADDRESS`, `WEBHOOK_SECRET`) entirely — do not include it with a placeholder, and never copy real values from `.env`.
+- If personal information is needed for the app to run, it belongs only in local/untracked env files (`.env`, `.env.local`) or the deployment platform's environment variables.
+- Before committing, scan the diff for anything matching an email, phone number, or wallet address and remove it first, unless it falls under the exception above.
+
 ## Commit & PR guidelines
 
 - **One feature per PR — no coupling.** Each feature reviews, merges, and reverts independently. A change spanning two features is two PRs.
