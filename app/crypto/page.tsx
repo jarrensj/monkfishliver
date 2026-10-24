@@ -135,7 +135,7 @@ export default function Crypto() {
                 <p>
                   Jarren built Walrus Photo Booth for the Sui Foundation on
                   Walrus, the decentralized storage network on Sui. It debuted
-                  at one of the Sui Foundation’s official events at ETHDenver
+                  at one of the Sui Foundation’s official events at ETH Denver
                   2025.
                 </p>
               </div>
