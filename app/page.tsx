@@ -26,13 +26,6 @@ export default function Home() {
             </p>
             <nav className="vbg-custom-links" aria-label="Jarren’s profiles">
               <a
-                href="https://jarrensj.com/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Portfolio
-              </a>
-              <a
                 href="https://github.com/jarrensj"
                 target="_blank"
                 rel="noreferrer"
