@@ -208,6 +208,18 @@ export default function Crypto() {
                   </a>
                   .
                 </p>
+                <p>
+                  Jarren and friends also won{" "}
+                  <a
+                    className="vbg-link"
+                    href="https://x.com/audius/status/2031052554369429677"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    a Solana hackathon
+                  </a>{" "}
+                  for the music and ticketing track.
+                </p>
               </div>
             </article>
             <article className="vbg-custom-row" aria-labelledby="websites-title">
