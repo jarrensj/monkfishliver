@@ -47,6 +47,13 @@ export default function Home() {
               >
                 Instagram
               </a>
+              <a
+                href="https://x.com/jarrensj"
+                target="_blank"
+                rel="noreferrer"
+              >
+                X
+              </a>
             </nav>
           </div>
         </section>
