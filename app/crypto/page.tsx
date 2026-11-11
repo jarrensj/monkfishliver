@@ -117,6 +117,20 @@ export default function Crypto() {
                 </div>
               </div>
             </article>
+            <article className="vbg-custom-row" aria-labelledby="robinhood-title">
+              <div className="vbg-custom-group">
+                <h3 id="robinhood-title" className="vbg-heading-24">
+                  Robinhood Chain
+                </h3>
+                <p>With David Horvath</p>
+              </div>
+              <div className="vbg-custom-group">
+                <p>
+                  Jarren is working on a project with David Horvath on
+                  Robinhood Chain.
+                </p>
+              </div>
+            </article>
             <article className="vbg-custom-row" aria-labelledby="walrus-title">
               <div className="vbg-custom-group">
                 <h3 id="walrus-title" className="vbg-heading-24">
