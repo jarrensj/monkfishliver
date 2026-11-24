@@ -129,6 +129,15 @@ export default function Crypto() {
                   Jarren is working on a project with David Horvath on
                   Robinhood Chain.
                 </p>
+                <div className="vbg-custom-source-line">
+                  <a
+                    href="https://x.com/davidzhorvath/status/2124979650296533448"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    HOODS
+                  </a>
+                </div>
               </div>
             </article>
             <article className="vbg-custom-row" aria-labelledby="walrus-title">
